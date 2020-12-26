@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.formdiv {
+    height: 100%;
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+
+.formbox {
+    width: 400px;
+    height: 420px;
+    position: relative;
+    margin: 15% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    box-shadow: 5px 5px 5px 5px #c8ea07;
+}
+
+.buttons {
+    position: relative;
+    width: 200px;
+    margin: 40px auto;
+    border-radius: 25px;
+    box-shadow: 0 0 20px 4px #7fb41b;
+}
+
+.formbtn {
+    position: relative;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 15px 24px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#btndesign {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    background: linear-gradient(to right, #a0f503, #f5f105);
+    transition: 0.5s;
+}
+
+.form-group {
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s
+}
+
+#regform {
+    top: 100px;
+}
+
+.input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 2px solid #8ed856;
+    outline: none;
+    background: transparent;
+}
+
+.select {
+    width: 100%;
+    margin: 8px 0;
+    padding: 8px 0;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 2px solid #8ed856;
+    outline: none;
+    background: transparent;
+    color: purple;
+    font-weight: bold;
+}
+
+.btn-login-reg {
+    width: 100%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    background: linear-gradient(to right, #a0f503, #f5f105);
+    border: 0;
+    outline: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#regform {
+    left: 500px;
+}
+
+#loginform {
+    left: 65px;
+}
+
+.social-media {
+    margin-top: 280px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    height: 46px;
+    width: 46px;
+    border: 1px solid #5d8d04;
+    color: #5d8d04;
+    margin: 0 0.45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.social-icon:hover {
+    color: #a0f503;
+    border-color: #5d8d04;
+}
+
+@media (max-width: 858px) {
+    .formbox {
+        width: 350px;
+        height: 400px;
+        position: relative;
+        margin: 15% auto;
+        padding: 5px;
+        overflow: hidden;
+        border-bottom-right-radius: 70px;
+        border-top-left-radius: 70px;
+    }
+    .formdiv {
+        height: 920px;
+    }
+    #loginform {
+        left: 30px;
+    }
+    #regform {
+        left: 400px;
+    }
+    .social-media {
+        margin-top: 250px;
+    }
+    .btn-login-reg.sign {
+        margin-top: 0px;
+    }
+}
